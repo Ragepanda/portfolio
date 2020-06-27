@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 class Project extends React.Component {
     constructor(props) {
@@ -31,14 +30,14 @@ class Project extends React.Component {
 
         return (
             <div onMouseEnter={this.activateGif} onMouseLeave={this.deactivateGif}>
-                <a href={this.props.project.url} target="_blank">
+                <a rel="noopener noreferrer" href={this.props.project.url} target="_blank">
                     <h2 className="project-title">{this.props.project.title}</h2>
                 </a>
-                <a href={this.props.project.github} target="_blank">
-                <img className="github-icon" onMouseEnter={this.logoHover} onMouseLeave={this.logoUnhover} src={this.state.logo}></img>
+                <a rel="noopener noreferrer" href={this.props.project.github} target="_blank">
+                <img alt="github" className="github-icon" onMouseEnter={this.logoHover} onMouseLeave={this.logoUnhover} src={this.state.logo}></img>
                 </a>
-                <a href={this.props.project.url} target="_blank">
-                    <img className="project-image" src={this.state.image}></img>
+                <a rel="noopener noreferrer" href={this.props.project.url} target="_blank">
+                    <img alt="githbu" className="project-image" src={this.state.image}></img>
                 </a>
                 <span className="project-description">{this.props.project.description}</span>
             </div>

@@ -26,12 +26,8 @@ class Contact extends React.Component {
             "message": this.state.message
         }
 
-        var service_id = "gmail";
-        var template_id = "template_XpXE6h38";
-        console.log(this.state);
         emailjs.send("default_service", "template_XpXE6h38", template_params, "user_paw9N4bEJ6sJgI7Xk8juv")
             .then((result) => {
-                console.log(result.text);
                 this.setState({ thanks: "thank-you-visible", message: "", subject: "", email: "" },
                     () => {
                         window.setTimeout(()=>{

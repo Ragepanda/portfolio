@@ -1,7 +1,5 @@
 import React from "react";
 import "./Resume.css"
-import Project from "../components/Project";
-import config from "../config/config";
 import { Link } from "react-router-dom";
 
 class Resume extends React.Component {
@@ -52,7 +50,7 @@ class Resume extends React.Component {
                     <div className="side-panel" id="contact">
                         <div className="header-underline">
                             <div className="image-wrap">
-                                <img className="side-icons" src="/assets/image/contact-us.png" />
+                                <img alt="contact" className="side-icons" src="/assets/image/contact-us.png" />
                             </div>
                             <h2>Contact</h2>
                         </div>
@@ -68,7 +66,7 @@ class Resume extends React.Component {
                     <div className="side-panel" id="projects">
                         <div className="header-underline">
                             <div className="image-wrap">
-                                <img className="side-icons" src="/assets/image/resume/presentation.png" />
+                                <img alt="past work" className="side-icons" src="/assets/image/resume/presentation.png" />
                             </div>
                             <h2 id="past-work">Past Work</h2>
                         </div>
@@ -76,14 +74,14 @@ class Resume extends React.Component {
 
                         <div className="project-icons" onMouseEnter={this.activateGithub} onMouseLeave={this.deactivateGithub}>
                             <a href="https://github.com/Ragepanda">
-                                <img className="zoom" src={this.state.github} />
+                                <img alt="github" className="zoom" src={this.state.github} />
                                 <p>Github</p>
                             </a>
                         </div>
 
                         <div className="project-icons" onMouseEnter={this.activateProjects} onMouseLeave={this.deactivateProjects}>
                             <Link to="/work">
-                                <img className="spin" src={this.state.projects} />
+                                <img alt="projects" className="spin" src={this.state.projects} />
                                 <p>Projects</p>
                             </Link>
                         </div>
@@ -92,7 +90,7 @@ class Resume extends React.Component {
                     <div className="side-panel" id="relevant-skills">
                         <div className="header-underline">
                             <div className="image-wrap">
-                                <img className="side-icons" src="/assets/image/resume/skills.png" />
+                                <img alt="skills" className="side-icons" src="/assets/image/resume/skills.png" />
                             </div>
                             <h2>Skills</h2>
                         </div>
@@ -107,7 +105,7 @@ class Resume extends React.Component {
                     <div className="side-panel" id="education">
                         <div className="header-underline">
                             <div className="image-wrap">
-                                <img className="side-icons" src="/assets/image/resume/education.png" />
+                                <img alt="education" className="side-icons" src="/assets/image/resume/education.png" />
                             </div>
                             <h2>Education</h2>
                         </div>
@@ -127,7 +125,7 @@ class Resume extends React.Component {
                 <section>
                     <div className="header-underline">
                         <div className="image-wrap">
-                            <img className="side-icons" src="/assets/image/resume/work-history.png" />
+                            <img alt="work history" className="side-icons" src="/assets/image/resume/work-history.png" />
                         </div>
                         <h2 id="work-history">Work History</h2>
                     </div>

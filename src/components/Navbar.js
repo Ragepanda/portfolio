@@ -1,8 +1,6 @@
 import React from "react";
 import "./Navbar.css"
 import {Link} from "react-router-dom";
-import Home from "../pages/Home";
-import Projects from "../pages/Projects";
 class Navbar extends React.Component {
 
 
@@ -12,7 +10,7 @@ class Navbar extends React.Component {
             <nav>
 
                 <header>
-                    <img src="/assets/image/code.png"></img>
+                    <img alt="logo" src="/assets/image/code.png"></img>
                     <h2>J. Woltz</h2>
                     <h3>React Full Stack Developer</h3>
                 </header>

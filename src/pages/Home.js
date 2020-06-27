@@ -51,27 +51,27 @@ class Home extends React.Component {
                 <aside>
                     <div onMouseEnter={this.resumeHover} onMouseLeave={this.resumeLeave}>
                         <Link to="/resume">
-                            <img className="zoom" id="resume" src={this.state.resumeImage} />
+                            <img alt="resume" className="zoom" id="resume" src={this.state.resumeImage} />
                             <h3>Resume</h3>
                         </Link>
                     </div>
 
                     <div onMouseEnter={this.settingsHover} onMouseLeave={this.settingsLeave}>
                         <Link to="/work">
-                            <img className="spin" src={this.state.settingsImage} />
+                            <img alt="projects" className="spin" src={this.state.settingsImage} />
                             <h3>Work</h3>
                         </Link>
                     </div>
 
                     <div onMouseEnter={this.contactHover} onMouseLeave={this.contactLeave}>
                         <Link to="/contact">
-                            <img className="zoom" src={this.state.contactImage} />
+                            <img alt="contact" className="zoom" src={this.state.contactImage} />
                             <h3>Contact</h3>
                         </Link>
                     </div>
                     <div onMouseEnter={this.logoHover} onMouseLeave={this.logoLeave}>
-                        <a href="https://github.com/Ragepanda" target="_blank">
-                            <img className="zoom" src={this.state.logoImage} />
+                        <a href="https://github.com/Ragepanda" target="_blank" rel="noopener noreferrer">
+                            <img alt="github" className="zoom" src={this.state.logoImage} />
                             <h3>Github</h3>
                         </a>
                     </div>

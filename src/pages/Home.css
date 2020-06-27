@@ -89,6 +89,9 @@
   }
 
   @media screen and (max-width: 443px){
+    .content{
+        top:150px;
+    }
     .content section{
         width: 90%;
     }
