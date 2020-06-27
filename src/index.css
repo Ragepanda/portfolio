@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("/assets/image/beach-wallpaper.jpg"); */
+  /* background-image: url("/assets/image/ocean-horizon.jpg"); */
+  background-color:  #384142;
+  color: #e6f1f3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height: 100%;
+  opacity: .7;
+}
+
+

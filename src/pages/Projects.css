@@ -1,0 +1,118 @@
+.work{
+    width: 80%;
+    box-shadow: 3px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+}
+
+.work h1{
+   border-bottom: 3px solid #7398a5;
+   padding-bottom: 10px;
+   margin-bottom: 0px;
+   font-size: 240%;
+}
+
+.projects{
+    margin-bottom: 100px;
+}
+
+.projects div{
+   width: 100%;
+   position: relative;
+   display: block;
+   border-bottom: 3px solid #7398a5;
+}
+
+.projects div:hover h2{
+    color: #9fbfcc;
+}
+
+
+
+
+
+.github-icon{
+    display: inline;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.github-icon:hover{
+    transform: scale(1.5);
+}
+
+.project-title{
+    text-align: left;
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.project-image{
+    width: 20%;
+    padding:10px;
+    height: auto;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    transition: .8s;
+    border-radius: 19px;
+    z-index: 2;
+}
+
+.project-image:hover{
+    transform: scale(1.5);
+    z-index: 998;
+    
+}
+
+.project-description{
+    width: 70%;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    display: inline-block;
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .project-description{
+        display: block;
+        position: relative;
+ 
+        top: 0px;
+        width: 80%;
+        left:10%;
+        padding-bottom: 15px;
+    }
+
+    .project-image{
+        width: 80%;
+        position: relative;
+        left: 8%;
+
+    }
+
+    .github-icon{ 
+        display: block;
+        position: absolute;
+  
+    }
+
+    .project-title{
+        display: block;
+        position: absolute;
+
+    }
+
+    .projects div{
+        position: relative;
+        height: auto;
+    }
+}

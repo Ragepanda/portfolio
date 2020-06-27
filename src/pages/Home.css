@@ -1,0 +1,108 @@
+.content{
+    text-align: center;
+    width: 80%;
+    box-shadow: 3px;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+}
+
+.content section{
+    width: 60%;
+    display: inline-block;
+}
+
+.content h1{
+    font-size: 300%;
+    text-align: left;
+    margin-bottom:10px;
+    border-bottom: 3px solid #7398a5;
+    padding-bottom: 20px;
+}
+
+.content p{
+    font-size: 125%;
+    text-align: left;
+    width: 100%;
+}
+
+.content aside{
+    padding-top:20px;
+    width:60%;
+    display: inline-block;
+}
+
+.content aside div{
+    display: inline-block;
+    width: 25%;
+}
+
+.content aside div .spin{
+    -webkit-transition: -webkit-transform 1.8s ease-in-out;
+    transition:         transform 1.8s ease-in-out;
+}
+
+.content aside div .zoom{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+#resume{
+    margin-left:10px;
+}
+
+.content aside div:hover .spin {
+    
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+}
+
+.content aside div:hover .zoom {
+    
+    transform: scale(1.25);
+    
+}
+
+.content aside div:hover{
+    color: #9fbfcc;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .content{
+        width:100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .content{
+        width:100%;
+    }
+    .content section{
+        width: 70%;
+    }
+
+    .content aside{
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 443px){
+    .content section{
+        width: 90%;
+    }
+    .content section h1{
+        font-size: 240%;
+    }
+
+    .content aside div{
+        width: 50%;
+        display: inline-block;
+    }
+
+    .content section p{
+        font-size: 115%;
+        
+    }
+}

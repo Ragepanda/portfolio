@@ -1,0 +1,194 @@
+.resume{
+    width: 85%;
+    margin-left:7.5%;
+    position: relative;
+    top: 75px;
+}
+
+.resume header{
+    width: 100%;
+    margin-bottom:50px;
+}
+
+.resume header h1{
+    font-size: 280%;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #7398a5;
+}
+
+.resume header p{
+    font-size: 90%;
+    margin-top: 0px;
+}
+
+.resume aside{
+    width:27%;
+    margin-right:3%;
+    display: inline-block;
+}
+
+.resume section{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-underline{
+    border-bottom: 3px solid #7398a5;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.side-panel{
+    display: inline-block;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.side-panel h2{
+    display: inline;
+    padding-left: 5px;
+
+}
+
+.side-panel h3{
+    margin-bottom: 0px;
+}
+
+.side-panel p{
+    margin:0px;
+    display:list-item;
+    margin-left:20px;
+}
+
+.resume ul{
+    padding-left:0px;
+    margin-left: 20px;
+}
+
+#education p.edu-dates{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: block;
+    font-size:70%;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+#education h3{
+    margin-top: 0px;
+    font-size:120%;
+}
+
+#contact h3{
+    margin-top:8px;
+}
+
+
+
+
+#past-work{
+   display: inline;
+}
+
+
+#work-history{
+    margin-left: 5px;
+    display: inline;
+}
+
+.resume .side-icons{
+    
+    height:25px;
+    position: relative;
+    left: 5px;
+    top: 4px;
+}
+
+.image-wrap{
+    background-color: #7398a5;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+   
+}
+
+.project-icons{
+    display: inline-block;
+    width: 50%;
+    text-align:center;
+    margin-top:15px;
+}
+
+.project-icons p{
+    display: block;
+    margin-left: 0px;
+}
+
+.resume .spin{
+    -webkit-transition: -webkit-transform 1.8s ease-in-out;
+    transition:         transform 1.8s ease-in-out;
+}
+
+.resume .zoom{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.zoom:hover  {   
+    transform: scale(1.25); 
+}
+
+.spin:hover {
+    
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+.resume{
+    top:125px;
+}
+
+.resume aside{
+    width: 100%;
+}
+
+.resume section{
+    width: 100%;
+}
+
+.side-panel{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+.project-icons{
+    padding-top:30px;
+}
+}
+
+
+@media screen and (max-width: 450px) {
+    .side-panel{
+        width: 100%;
+        margin-left:0px;
+        margin-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 384px) {
+    .resume{
+        top: 150px;
+    }
+    .resume header h1{
+        font-size:200%;
+    }
+}
