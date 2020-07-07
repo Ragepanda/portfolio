@@ -6,8 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("/assets/image/beach-wallpaper.jpg"); */
   /* background-image: url("/assets/image/ocean-horizon.jpg"); */
-  background-color:  #384142;
-  color: #e6f1f3;
+  color: #e6f1f3e7;
 }
 
 code {
@@ -16,8 +15,19 @@ code {
 }
 
 #root{
+  background-color:  #384142;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
-  opacity: .7;
+  opacity: .9;
+  overflow-y: auto;
 }
 
-
+html{
+  background-image: url("/assets/image/black-sea-water.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+}

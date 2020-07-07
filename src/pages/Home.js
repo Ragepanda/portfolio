@@ -46,7 +46,7 @@ class Home extends React.Component {
             <div className="content">
                 <section>
                     <h1>Need a Web Developer?</h1>
-                    <p>Hello! My name is John. I'm a full stack React web developer located in Raleigh, NC. I'm experienced in providing elegant, reactive and mobile-friendy front end solutions, SEO enhancements and sophisticated back end infrastructure. Looking to hire or need a freelancer? Let's have a talk.</p>
+                    <p>Hello! My name is John, a Full Stack Web Developer located in Raleigh, NC. I specialize in the MySQL, Express, React and Node stack. I am experienced in delivering elegant, reactive, mobile friendly and search engine optimized front end experiences. I'm also skilled at developing sophisticated back end infrastructures complete with high volume databases, secure log-in verification and REST APIs. Looking to hire or need a freelancer? Let's have a talk.</p>
                 </section>
                 <aside>
                     <div onMouseEnter={this.resumeHover} onMouseLeave={this.resumeLeave}>
@@ -59,7 +59,7 @@ class Home extends React.Component {
                     <div onMouseEnter={this.settingsHover} onMouseLeave={this.settingsLeave}>
                         <Link to="/work">
                             <img alt="projects" className="spin" src={this.state.settingsImage} />
-                            <h3>Work</h3>
+                            <h3>Past Work</h3>
                         </Link>
                     </div>
 

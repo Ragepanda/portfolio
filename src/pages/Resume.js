@@ -42,7 +42,8 @@ class Resume extends React.Component {
             <div className="resume">
                 <header>
                     <h1>Jonathan Woltz</h1>
-                    <p>Well-qualified Full Stack React/Node Developer familiar with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements.
+                    <p>Well-qualified Full Stack Developer familiar with a wide range of programming utilities and languages with a specialization in the MySQL, Express, React and Node Stack. 
+                        Knowledgeable of backend and frontend development requirements.
                         Able to handle any part of the process with ease. Collaborative team player with ecellent technical abilities offering two years of related experience.
                         </p>
                 </header>
