@@ -42,10 +42,10 @@ class Resume extends React.Component {
             <div className="resume">
                 <header>
                     <h1>Jonathan Woltz</h1>
-                    <p>Well-qualified Full Stack Web Developer familiar with a wide range of programming utilities and languages with a specialization in the MySQL, Express, React and Node Stack. 
+                    <p>Well-qualified Full Stack Web Developer familiar with a wide range of programming utilities and languages with a specialization in the MySQL, Express, React and Node Stack.
                         Knowledgeable of backend and frontend development requirements.
                         Able to handle any part of the process with ease. Collaborative team player with excellent technical abilities offering two years of related experience.
-                        </p>
+                    </p>
                 </header>
                 <aside>
                     <div className="side-panel" id="contact">
@@ -130,48 +130,63 @@ class Resume extends React.Component {
                         </div>
                         <h2 id="work-history">Work History</h2>
                     </div>
+                    <div className="job-entry">
+                        <h3>Front End Web Developer | Nov 2020 - Current</h3>
+                        <p>Syngenta, Morrsiville, NC</p>
+                        <ul>
+                            <li>Wrote and maintained quality code in compliance with the business needs of clients and design team.</li>
+                            <li>Responded promptly to clients unable to access assets by debugging problems and correcting issues swiftly</li>
+                            <li>Acted as technical resource and advisor for design and product teams throughout planning processes.</li>
+                            <li>Developed customer-facing communications with measurable click-thru rates for analytics tracking</li>
+                        </ul>
+                    </div>
 
-                    <h3>Full Stack Web Developer | Feb 2019 - May 2020</h3>
-                    <p> Admetrics Pro, Morrisville, NC </p>
-                    <ul>
-                        <li>
-                            Implemented SEO enhancements and Front End
-                            updates on two of Admetric Pro's acquired
-                            websites which saw 20% increase in traffic within
-                            three months of optimization.
-                        </li>
-                        <li>
-                            Took initial concepts and developed project plans
-                        </li>
-                        <li>
-                            Reviewed code, debugged problems and corrected issues
-                        </li>
-                        <li>
-                            Delivered three user-centric full stack websites as project manager that met all business requirements
-                        </li>
-                        <li>
-                            Managed milestones from initial steps through final delivery
-                        </li>
-                    </ul>
+                    <div className="job-entry">
+                        <h3>Full Stack Web Developer | Feb 2019 - May 2020</h3>
+                        <p> Admetrics Pro, Morrisville, NC </p>
+                        <ul>
+                            <li>
+                                Implemented SEO enhancements and Front End
+                                updates on two of Admetric Pro's acquired
+                                websites which saw 20% increase in traffic within
+                                three months of optimization.
+                            </li>
+                            <li>
+                                Took initial concepts and developed project plans
+                            </li>
+                            <li>
+                                Reviewed code, debugged problems and corrected issues
+                            </li>
+                            <li>
+                                Delivered three user-centric full stack websites as project manager that met all business requirements
+                            </li>
+                            <li>
+                                Managed milestones from initial steps through final delivery
+                            </li>
+                        </ul>
+                    </div>
 
-                    <h3>Quality Assurance Automation Engineer | Nov 2015 - Feb 2017</h3>
-                    <p> Sensus, Morrsiville, NC </p>
-                    <ul>
-                        <li>
-                            Implemented end-to-end automation for electric meter diagnostics, replacing thousands of manual tests
-                        </li>
-                        <li>
-                            Identified appropriate situations for implementing test automation, accounting for situations where automated testing was counterproductive
-                        </li>
-                        <li>
-                            Validated production deployment changes, providing reports on discovered issues to the team's Senior Engineer
-                        </li>
-                        <li>
-                            Identified and tracked defects with TestTrack and supported developers with responsive testing feedback.
-                        </li>
-                    </ul>
+                    <div className="job-entry">
 
-                    <h3>Cloud Network Colocation Intern</h3>
+                        <h3>Quality Assurance Automation Engineer | Nov 2015 - Feb 2017</h3>
+                        <p> Sensus, Morrsiville, NC </p>
+                        <ul>
+                            <li>
+                                Implemented end-to-end automation for electric meter diagnostics, replacing thousands of manual tests
+                            </li>
+                            <li>
+                                Identified appropriate situations for implementing test automation, accounting for situations where automated testing was counterproductive
+                            </li>
+                            <li>
+                                Validated production deployment changes, providing reports on discovered issues to the team's Senior Engineer
+                            </li>
+                            <li>
+                                Identified and tracked defects with TestTrack and supported developers with responsive testing feedback.
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* <h3>Cloud Network Colocation Intern</h3>
                     <p>General Electric, Blue Ash, OH</p>
                     <ul>
                         <li>
@@ -186,7 +201,7 @@ class Resume extends React.Component {
                         <li>
                             Provided analysis on automation oportunites for networking elements of Colocation/Cloud Edge design.
                         </li>
-                    </ul>
+                    </ul> */}
 
                 </section>
             </div >
