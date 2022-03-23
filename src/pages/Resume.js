@@ -42,9 +42,7 @@ class Resume extends React.Component {
             <div className="resume">
                 <header>
                     <h1>Jonathan Woltz</h1>
-                    <p>Well-qualified Full Stack Web Developer familiar with a wide range of programming utilities and languages with a specialization in the MySQL, Express, React and Node Stack.
-                        Knowledgeable of backend and frontend development requirements.
-                        Able to handle any part of the process with ease. Collaborative team player with excellent technical abilities offering two years of related experience.
+                    <p>Well-qualified Front End Developer familiar with a specialization in React. Knowledgeable of design, planning and Agile methodologies for delivering sleek and efficient front end systems. Able to handle any part of the process with competence. Collaborative team player with excellent technical and leadership abilities offering three years of related experience.
                     </p>
                 </header>
                 <aside>
@@ -56,7 +54,7 @@ class Resume extends React.Component {
                             <h2>Contact</h2>
                         </div>
                         <h3>Address</h3>
-                        <p>3700 Chimney Ridege Place</p>
+                        <p>3700 Chimney Ridege Place, Apt 003</p>
                         <p>Durham, NC, 27713</p>
                         <h3>Phone</h3>
                         <p>(336) 529 2098</p>
