@@ -56,8 +56,8 @@ class Resume extends React.Component {
                             <h2>Contact</h2>
                         </div>
                         <h3>Address</h3>
-                        <p>2109 Glade Valley Lane</p>
-                        <p>Morrisville, NC, 27560</p>
+                        <p>3700 Chimney Ridege Place</p>
+                        <p>Durham, NC, 27713</p>
                         <h3>Phone</h3>
                         <p>(336) 529 2098</p>
                         <h3>E-Mail</h3>

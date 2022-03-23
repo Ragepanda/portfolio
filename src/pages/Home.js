@@ -50,7 +50,7 @@ class Home extends React.Component {
             <div className="content">
                 <section>
                     <h1>Need a Web Developer?</h1>
-                    <p>Hello! My name is John, a Full Stack Web Developer located in Raleigh, NC. I specialize in the MySQL, Express, React and Node stack. I am experienced in delivering elegant, reactive, mobile friendly and search engine optimized front end experiences. I'm also skilled at developing sophisticated back end infrastructures complete with high volume databases, secure log-in verification and REST APIs. Looking to hire or need a freelancer? Let's have a talk.</p>
+                    <p>Hello! My name is John, a Full Stack Web Developer located in the Raleigh area of North Carolina. I specialize in the MySQL, Express, React and Node stack. I am experienced in delivering elegant, reactive, mobile friendly and search engine optimized front end experiences. I'm also skilled at developing sophisticated back end infrastructures complete with high volume databases, secure log-in verification and REST APIs. Looking to hire or need a freelancer? Let's have a talk.</p>
                 </section>
                 <aside>
                     <div className="link-container" onMouseEnter={this.resumeHover} onMouseLeave={this.resumeLeave}>
