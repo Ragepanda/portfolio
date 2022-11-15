@@ -10,21 +10,21 @@ class Projects extends React.Component {
                 {
                     title: "Runeterra Nexus", 
                     description: "React/Node/Express/MySQL app made for drafting, managing and viewing decks in the game known as Legends of Runeterra.", 
-                    url:"http://runeterranexus.com/", 
+                    url:"https://github.com/Ragepanda/runterra-deck-list", 
                     github:"https://github.com/Ragepanda/runterra-deck-list",
                     image: "/assets/image/projects/runeterra.jpg"
                 },
                 {
                     title: "Bitcoin-Sama",
                     description: "Bitcoinsama is a React/Node/MySQL/Express application that displays market data for the top 20 crypto currencies, aggregates crypto news, display price charts and calculate exchange rates.",
-                    url: "http://bitcoinsama.com",
+                    url: "https://github.com/Ragepanda/bit-cafe",
                     github: "https://github.com/Ragepanda/bit-cafe",
                     image: "/assets/image/projects/bitcoin.jpg"
                 },
                 {
                     title: "The Drinksly",
                     description: "The Drinksly is a responsive and mobile friendly React/Node front end application that allows users to search for popular alcoholic drink recipes.",
-                    url: "http://thedrinksly.com/",
+                    url: "https://github.com/Ragepanda/the-drinksly",
                     github: "https://github.com/Ragepanda/the-drinksly",
                     image: "/assets/image/projects/drinksly.jpg"
                 },
