@@ -43,10 +43,10 @@ class Resume extends React.Component {
           <h1>Jonathan Woltz</h1>
           <p>
             Well-qualified Front End Developer familiar with a specialization in
-            React. Knowledgeable of design, planning and Agile methodologies for
+            React, TypeScript, LESS/SASS, GraphQL and Redux. Knowledgeable of design, planning and Agile methodologies for
             delivering sleek and efficient front end systems. Able to handle any
             part of the process with competence. Collaborative team player with
-            excellent technical and leadership abilities offering three years of
+            excellent technical and leadership abilities offering five years of
             related experience.
           </p>
         </header>
@@ -63,8 +63,8 @@ class Resume extends React.Component {
               <h2>Contact</h2>
             </div>
             <h3>Address</h3>
-            <p>3700 Chimney Ridege Place, Apt 003</p>
-            <p>Durham, NC, 27713</p>
+            <p>1800 E 38th St</p>
+            <p>Savannah, GA, 31404</p>
             <h3>Phone</h3>
             <p>(336) 529 2098</p>
             <h3>E-Mail</h3>
