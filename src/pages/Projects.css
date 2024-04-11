@@ -11,26 +11,36 @@
    border-bottom: 3px solid #7398a5;
    padding-bottom: 10px;
    margin-bottom: 0px;
+   margin-top: 0px;
    font-size: 240%;
 }
 
 .projects{
     margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.projects div{
-   width: 100%;
+.projects .project{
+   width: 30%;
+   margin: auto;
    position: relative;
    display: block;
-   border-bottom: 3px solid #7398a5;
+   border: 3px solid #7398a5;
+   border-radius: 5%;
+   height: 500px;
+   margin-top: 24px;
+   background-color: #233b45;
 }
 
-.projects div:hover h2{
+
+.projects .project:hover {
+    border: 3px solid #e6f1f3e7;
+}
+
+.projects div h2:hover{
     color: #9fbfcc;
 }
-
-
-
 
 
 .github-icon{
@@ -38,27 +48,33 @@
     height: 30px;
     position: absolute;
     right: 10px;
-    top: 15px;
+    top: 16px;
 }
 
 .github-icon:hover{
+    -webkit-transition: transform 1s ease-in-out;
     transform: scale(1.5);
 }
 
 .project-title{
+    font-size: 28px;
     text-align: left;
     display: inline;
     position: absolute;
-    left: 10px;
+    left: 20px;
     top: -10px;
 }
 
+.project-title-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .project-image{
-    width: 20%;
-    padding:10px;
+    width: 80%;
     height: auto;
-    margin-top: 50px;
-    display: inline-block;
+    margin-left: 10%;
+    margin-top: 60px;
     position: relative;
     transition: .8s;
     border-radius: 19px;
@@ -66,53 +82,56 @@
 }
 
 .project-image:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     z-index: 998;
     
 }
 
 .project-description{
-    width: 70%;
-    position: absolute;
-    top: 60px;
-    left: 25%;
-    display: inline-block;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: large;
+
+
     
 }
 
-
-@media screen and (max-width: 767px) {
-    .project-description{
-        display: block;
-        position: relative;
- 
-        top: 0px;
-        width: 80%;
-        left:10%;
-        padding-bottom: 15px;
+@media screen and (max-width: 1980px) {
+    .projects .project {
+       height: 450px;
     }
+   }
 
-    .project-image{
-        width: 80%;
-        position: relative;
-        left: 8%;
 
-    }
-
-    .github-icon{ 
-        display: block;
-        position: absolute;
-  
-    }
-
-    .project-title{
-        display: block;
-        position: absolute;
-
-    }
-
-    .projects div{
-        position: relative;
-        height: auto;
-    }
+@media screen and (max-width: 1440px) {
+ .projects .project {
+    width: 45%;
+    height: 450px;
+ }
 }
+
+@media screen and (max-width: 1024px) {
+    .projects .project {
+       width: 45%;
+       height: 400px;
+    }
+   }
+
+   @media screen and (max-width: 767px) {
+    .projects .project {
+       width: 90%;
+       height: 450px;
+    }
+
+    .work{
+        margin-top: 30px;
+    }
+   }
+
+   @media screen and (max-width: 450px) {
+    .projects .project {
+       width: 90%;
+       height: 400px;
+    }
+   }

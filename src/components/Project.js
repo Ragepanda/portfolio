@@ -29,17 +29,17 @@ class Project extends React.Component {
     render() {
 
         return (
-            <div onMouseEnter={this.activateGif} onMouseLeave={this.deactivateGif}>
-                <a rel="noopener noreferrer" href={this.props.project.url} target="_blank">
+            <div className="project" onMouseEnter={this.activateGif} onMouseLeave={this.deactivateGif}>
+                <a className="project-title-link" rel="noopener noreferrer" href={this.props.project.url} target="_blank">
                     <h2 className="project-title">{this.props.project.title}</h2>
                 </a>
                 <a rel="noopener noreferrer" href={this.props.project.github} target="_blank">
                 <img alt="github" className="github-icon" onMouseEnter={this.logoHover} onMouseLeave={this.logoUnhover} src={this.state.logo}></img>
                 </a>
                 <a rel="noopener noreferrer" href={this.props.project.url} target="_blank">
-                    <img alt="githbu" className="project-image" src={this.state.image}></img>
+                    <img alt="github" className="project-image" src={this.state.image}></img>
                 </a>
-                <span className="project-description">{this.props.project.description}</span>
+                <p className="project-description">{this.props.project.description}</p>
             </div>
         )
     }

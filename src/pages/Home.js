@@ -49,8 +49,8 @@ class Home extends React.Component {
         return (
             <div className="content">
                 <section>
-                    <h1>Need a Web Developer?</h1>
-                    <p>Hello! My name is John, a Full Stack Web Developer located in the Raleigh area of North Carolina. I specialize in the MySQL, Express, React and Node stack. I am experienced in delivering elegant, reactive, mobile friendly and search engine optimized front end experiences. I'm also skilled at developing sophisticated back end infrastructures complete with high volume databases, secure log-in verification and REST APIs. Looking to hire or need a freelancer? Let's have a talk.</p>
+                    <h1>Need a Front End Developer?</h1>
+                    <p>Hello! My name is John! I build stuff in React, TypeScript and SASS/LESS and have been for over five years. In that time I've become an expert at building efficient, scalable and inheiritable code. If you're in the market for a knowledgeable and friendly front end developer, I'm your guy!</p>
                 </section>
                 <aside>
                     <div className="link-container" onMouseEnter={this.resumeHover} onMouseLeave={this.resumeLeave}>

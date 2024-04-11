@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                 <header>
                     <img alt="logo" src="/assets/image/code.png"></img>
                     <h2>J. Woltz</h2>
-                    <h3>Full Stack Web Developer</h3>
+                    <h3>Front End Web Developer</h3>
                 </header>
                 <ul>
                     <li><Link to="/">Home</Link></li>
