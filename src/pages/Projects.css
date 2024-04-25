@@ -82,9 +82,7 @@
 }
 
 .project-image:hover{
-    transform: scale(1.25);
     z-index: 998;
-    
 }
 
 .project-description{

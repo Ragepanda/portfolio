@@ -162,7 +162,7 @@ class Resume extends React.Component {
             <h2 id="work-history">Work History</h2>
           </div>
           <div className="job-entry">
-            <h3>UI Developer | Apr 2022 - Current</h3>
+            <h3>UI Developer | Apr 2022 - April 2024</h3>
             <p>Cisco Systems - Experis, Morrsiville, NC</p>
             <ul>
               <li>
