@@ -18,7 +18,7 @@
 }
 
 .resume header p{
-    font-size: 90%;
+    font-size: 100%;
     margin-top: 0px;
 }
 
@@ -87,6 +87,15 @@
 
 .job-entry {
     margin-bottom: 40px;
+}
+
+.job-entry h3 {
+    margin-bottom: 0px;
+}
+
+.job-entry h4 {
+    margin-top: 5px;
+    margin-bottom: 8px;
 }
 
 

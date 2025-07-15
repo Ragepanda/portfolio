@@ -42,12 +42,9 @@ class Resume extends React.Component {
         <header>
           <h1>Jonathan Woltz</h1>
           <p>
-            Well-qualified Front End Developer familiar with a specialization in
-            React, TypeScript, LESS/SASS, GraphQL and Redux. Knowledgeable of design, planning and Agile methodologies for
-            delivering sleek and efficient front end systems. Able to handle any
-            part of the process with competence. Collaborative team player with
-            excellent technical and leadership abilities offering five years of
-            related experience.
+            Front-End Developer with 6+ years of experience building responsive web applications using React, TypeScript, and GraphQL.
+            Skilled in performance optimization, data visualization, and mobile compatibility. Expert in transforming complex workflows
+            into clean, user-friendly interfaces.
           </p>
         </header>
         <aside>
@@ -124,8 +121,9 @@ class Resume extends React.Component {
             <ul>
               <li>TypeScript, React, SASS/LESS</li>
               <li>GraphQL, Redux, RESTful APIs</li>
-              <li>Git, Jira, Node.js</li>
+              <li>SQL, Node.js, Express</li>
               <li>Responsive & Mobile Friendly Design</li>
+              <li>Tailwind & Next.js</li>
             </ul>
           </div>
 
@@ -145,7 +143,7 @@ class Resume extends React.Component {
             <p>UNC Coding Bootcomp - Raleigh NC</p>
 
             <p className="edu-dates">August 2011 - May 2015</p>
-            <h3>Bachelor of Arts: Computer Science</h3>
+            <h3>Bachelor Degree: Computer Science</h3>
             <p>University of North Carolina - Chapel Hill, NC</p>
           </div>
         </aside>
@@ -161,75 +159,94 @@ class Resume extends React.Component {
             </div>
             <h2 id="work-history">Work History</h2>
           </div>
+
           <div className="job-entry">
-            <h3>UI Developer | Apr 2022 - April 2024</h3>
-            <p>Cisco Systems - Experis, Morrsiville, NC</p>
+            <h3>Software Developer I | Apr 2025 - Current</h3>
+            <h4>Department of Homeland Security - INTEGRITYOne Partners, Reston, VA</h4>
+            <p>Lead Front-End Developer for the HSI Digital Records Management System, driving performance improvements and
+              modernizing the evidence file storage platform.</p>
             <ul>
               <li>
-                Developed reusable components, queries and bugfixes for hardware
-                library using HTML, SASS/LESS, TypeScript and React.
+                Engineer React components with the Material UI and Syncfusion component libraries with Redux state management.
               </li>
               <li>
-                Reduced load time on key pages by 30% by utilizing lazy loading
-                and creating perfectly streamlined requests in GraphQL.
+                Utilize GraphQL to craft and modify queries
               </li>
               <li>
-                Utilized JIRA with Agile Methodology to manage project
-                requirements and business objectives.
+                Lead a full mobile compatibility conversion of platform
               </li>
               <li>
-                Reformatted over 20 pages on platform to be responsive and
-                mobile friendly for users in the field.
+                Use state management optimizations to reduce re-rendering and improve load times.
+              </li>
+            </ul>
+          </div>
+          <div className="job-entry">
+            <h3>UI Developer | Apr 2022 - April 2024</h3>
+            <h4>Cisco Systems - Experis, Morrsiville, NC</h4>
+            <p>Developed and optimized UI components for Cisco's internal IT testing library, enabling engineers to replicate real-world
+              device scenarios efficiently.
+            </p>
+            <ul>
+              <li>
+                Developed components, queries, and bug fixes using HTML, SASS/CSS, TypeScript, React, and GraphQL.
+              </li>
+              <li>
+                Reduced load time on key pages by 30% by utilizing lazy loading and optimizing GraphQL API requests.
+              </li>
+              <li>
+                Utilized Cisco's in-house UI component library and contributed customizations to it.
+              </li>
+              <li>
+                Reformatted over 20 pages on platform to be responsive and mobile friendly for users in the field.
               </li>
             </ul>
           </div>
 
           <div className="job-entry">
             <h3>Front End Web Developer | Nov 2020 - April 2022</h3>
-            <p>Syngenta, Morrsiville, NC</p>
+            <h4>Syngenta, Morrsiville, NC</h4>
+            <p>Delivered interactive mapping and analytics tools for Syngenta’s Farmshots platform, enabling growers to visualize crop health
+              trends from satellite imagery.</p>
             <ul>
               <li>
-                Contributed and maintained agronomist platform using HTML, SASS,
-                TypeScript, React, Redux and REST.
+                Contributed to Farmshots platform using HTML, LESS/CSS, TypeScript, React, Redux, Ant Design and RESTful APIs.
               </li>
               <li>
-                Created react components and tools to analyze high resolution
-                satellite imagery from AWS and generate informational graphs via
-                Chart.js that could be exported as PDFs and CSVs.
+                Created maps with Mapbox that allowed users to draw zones around farmland and layer crop-health heat maps on them.
               </li>
               <li>
-                Developed unit testing suites with Jest and implemented
-                analytics on over 70 interactive components using Segment.
+                Generated multiple types of data visualizations via Chart.js that could be exported as PDFs and CSVs.
               </li>
               <li>
-                Collaborated closely with Product Managers and Designers on
-                design drafts as a technical advisor.
+                Developed automated unit testing suites with Jest and utilized Jenkins to run them.
+              </li>
+              <li>
+                Implemented analytics on all interactive components using Segment, enabling product managers to track engagement.
               </li>
             </ul>
           </div>
 
           <div className="job-entry">
             <h3>Full Stack Web Developer | Feb 2019 - May 2020</h3>
-            <p> Admetrics Pro, Morrisville, NC </p>
+            <h4> Admetrics Pro, Morrisville, NC </h4>
+            <p>Engineered full-stack features for an ad revenue analytics platform and modernized multiple consumer-facing websites.</p>
             <ul>
               <li>
-                Maintained and contributed to full stack website ad space
-                management platform with an HTML, SCSS, TypeScript and React
-                Front End and a MySQL/Node Back End.
+                Managed the front-end codebase of the ad platform using HTML, SCSS, TypeScript, and React.
               </li>
               <li>
-                Implemented SEO and react conversions to a dated math and
-                english worksheets website acquired by AdMetrics Pro, increasing
-                user traffic by 30% within 3 months of improvements.
+                Maintained back end of the ad platform with MySQL, Node.js and REST APIs
               </li>
               <li>
-                Mentored, code reviewed, and taught React principles to two
-                fellow developers unfamiliar with the framework.
+                Implemented SEO and React conversions to worksheets website, increasing user traffic by 30% within 3 months.
+              </li>
+              <li>
+                Created a web scraper tool with Puppeteer to ingest large volumes of SEO data and compile it into CSVs.
               </li>
             </ul>
           </div>
 
-          <div className="job-entry">
+          {/* <div className="job-entry">
             <h3>Quality Assurance Automation Engineer | Nov 2015 - Feb 2017</h3>
             <p> Sensus, Morrsiville, NC </p>
             <ul>
@@ -251,7 +268,7 @@ class Resume extends React.Component {
                 developers with responsive testing feedback.
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* <h3>Cloud Network Colocation Intern</h3>
                     <p>General Electric, Blue Ash, OH</p>

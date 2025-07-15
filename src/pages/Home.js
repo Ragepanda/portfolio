@@ -50,7 +50,7 @@ class Home extends React.Component {
             <div className="content">
                 <section>
                     <h1>Need a Front End Developer?</h1>
-                    <p>Hello! My name is John! I build stuff in React, TypeScript and SASS/LESS and have been for over five years. In that time I've become an expert at building efficient, scalable and inheiritable code. If you're in the market for a knowledgeable and friendly front end developer, I'm your guy!</p>
+                    <p>Hello! My name is John! I build frontend websites in React, TypeScript, Redux, GraphQL and SASS. Lately that proficiency has been expanding to include Tailwind and Next.js! Over the course of my seven years in the career, I've become an expert at building beautiful and precise front end interfaces. If you're in the market for a knowledgeable and friendly front end developer, I'm your guy!</p>
                 </section>
                 <aside>
                     <div className="link-container" onMouseEnter={this.resumeHover} onMouseLeave={this.resumeLeave}>
